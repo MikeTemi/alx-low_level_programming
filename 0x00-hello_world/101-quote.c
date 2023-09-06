@@ -3,6 +3,12 @@
 /**
  * main - main function
  *
+ * Description: The 'write' function
+ * is included in the <unistd.h> header.
+ * It is used to write data to a file descriptor.
+ * It accepts 3 args namely: the file descriptor,
+ * the pointer to data you want to write and
+ * the byte count.
  * Return: 1 (success)
  */
 int main(void)
